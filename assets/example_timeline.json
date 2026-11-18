@@ -1,0 +1,617 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration": 21.9,
+ "grade": {
+  "saturation": 1.08,
+  "contrast": 1.04,
+  "vignette": 0.28
+ },
+ "shots": [
+  {
+   "src": "shots/harbor_round.png",
+   "start": 0.0,
+   "end": 1.75,
+   "camera": {
+    "zoom": [
+     1.18,
+     1.08
+    ],
+    "y": [
+     0.04,
+     0.03
+    ]
+   },
+   "flash": [
+    {
+     "at": 0.0,
+     "dur": 0.1
+    }
+   ],
+   "layers": [
+    {
+     "src": "chars/hero_smug.png",
+     "x": 0.24,
+     "y": 0.97,
+     "scale": 0.75,
+     "anchor": [
+      0.5,
+      1.0
+     ],
+     "pop_in": 0.25,
+     "idle": {
+      "bob": 6,
+      "sway": 1.5,
+      "breathe": 0.015,
+      "rate": 1.3
+     }
+    }
+   ]
+  },
+  {
+   "src": "shots/two_ships.png",
+   "end": 3.6,
+   "transition": {
+    "type": "whip",
+    "dur": 0.24
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "layers": [
+    {
+     "src": "chars/rival_smug.png",
+     "x": 0.78,
+     "y": 0.98,
+     "scale": 0.7,
+     "anchor": [
+      0.5,
+      1.0
+     ],
+     "pop_in": 0.2,
+     "idle": {
+      "bob": 10,
+      "sway": 3,
+      "rate": 2.6
+     }
+    },
+    {
+     "type": "text",
+     "text": "HA HA HA",
+     "font_preset": "heavy",
+     "size": 72,
+     "color": "#FFFFFF",
+     "stroke": 7,
+     "rot": -8,
+     "x": 0.66,
+     "y": 0.5,
+     "start": 0.95,
+     "end": 1.85,
+     "pop_in": 0.12
+    }
+   ]
+  },
+  {
+   "src": "shots/two_ships.png",
+   "end": 5.4,
+   "camera": {
+    "zoom": [
+     1.35,
+     1.45
+    ],
+    "x": [
+     -0.27,
+     -0.3
+    ],
+    "y": [
+     0.0,
+     -0.01
+    ]
+   },
+   "layers": [
+    {
+     "type": "text",
+     "text": "CHEAPER",
+     "font_preset": "heavy",
+     "size": 70,
+     "color": "#1A1A1A",
+     "box": "#FFC83D",
+     "border": 4,
+     "border_color": "#FFFFFF",
+     "rot": -3,
+     "x": 0.5,
+     "y": 0.3,
+     "start": 0.9,
+     "end": 1.8,
+     "pop_in": 0.12
+    }
+   ]
+  },
+  {
+   "src": "shots/two_ships.png",
+   "end": 7.5,
+   "transition": {
+    "type": "dissolve",
+    "dur": 0.25
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.15
+    ],
+    "x": [
+     -0.12,
+     -0.15
+    ]
+   },
+   "layers": [
+    {
+     "type": "ring",
+     "x": 0.68,
+     "y": 0.62,
+     "radius": 150,
+     "width": 9,
+     "start": 1.05,
+     "end": 1.65
+    },
+    {
+     "src": "chars/rival_smug.png",
+     "x": 0.2,
+     "y": 0.98,
+     "scale": 0.7,
+     "anchor": [
+      0.5,
+      1.0
+     ],
+     "keys": [
+      {
+       "t": 0,
+       "x": -0.25
+      },
+      {
+       "t": 0.45,
+       "x": 0.2,
+       "ease": "outBack"
+      }
+     ],
+     "idle": {
+      "bob": 5,
+      "sway": 1,
+      "rate": 1.2
+     }
+    }
+   ]
+  },
+  {
+   "src": "shots/two_ships.png",
+   "end": 9.35,
+   "transition": {
+    "type": "whip_right",
+    "dur": 0.24
+   },
+   "camera": {
+    "zoom": [
+     1.6,
+     1.68
+    ],
+    "y": [
+     -0.12,
+     -0.12
+    ],
+    "x": [
+     0.25,
+     0.23
+    ]
+   },
+   "grade": {
+    "saturation": 1.0,
+    "contrast": 1.05,
+    "vignette": 0.45
+   },
+   "layers": [
+    {
+     "src": "chars/rival_smug.png",
+     "x": 0.7,
+     "y": 1.02,
+     "scale": 1.25,
+     "anchor": [
+      0.5,
+      1.0
+     ],
+     "idle": {
+      "bob": 4,
+      "sway": 1,
+      "rate": 1.4
+     }
+    },
+    {
+     "src": "chars/hero_neutral.png",
+     "x": 0.18,
+     "y": 1.06,
+     "scale": 1.05,
+     "anchor": [
+      0.5,
+      1.0
+     ],
+     "idle": {
+      "bob": 3,
+      "rate": 1.0,
+      "phase": 1.3
+     },
+     "keys": [
+      {
+       "t": 1.0,
+       "img": "chars/hero_grimace.png"
+      },
+      {
+       "t": 1.0,
+       "sx": 1.1,
+       "sy": 0.92
+      },
+      {
+       "t": 1.18,
+       "sx": 1.0,
+       "sy": 1.0,
+       "ease": "outElastic"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "src": "shots/storm.png",
+   "end": 11.0,
+   "transition": {
+    "type": "flash",
+    "dur": 0.12
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "rot": [
+     0,
+     -2
+    ]
+   },
+   "shake": [
+    {
+     "at": 0.7,
+     "dur": 0.45,
+     "amp": 30
+    }
+   ],
+   "grade": {
+    "saturation": 0.85,
+    "contrast": 1.12,
+    "tint": "#1E3A8A",
+    "tint_amt": 0.14,
+    "vignette": 0.45
+   },
+   "flash": [
+    {
+     "at": 0.68,
+     "dur": 0.1,
+     "color": "#FFF8D0"
+    }
+   ]
+  },
+  {
+   "src": "shots/storm_crack.png",
+   "end": 13.8,
+   "camera": {
+    "zoom": [
+     1.2,
+     1.75
+    ],
+    "x": [
+     -0.2,
+     -0.36
+    ],
+    "y": [
+     0.0,
+     -0.14
+    ],
+    "ease": "inOutSine"
+   },
+   "shake": [
+    {
+     "at": 0.8,
+     "dur": 0.3,
+     "amp": 26
+    }
+   ],
+   "grade": {
+    "saturation": 0.85,
+    "contrast": 1.12,
+    "tint": "#1E3A8A",
+    "tint_amt": 0.14,
+    "vignette": 0.45
+   },
+   "layers": [
+    {
+     "src": "chars/rival_neutral.png",
+     "x": 0.82,
+     "y": 1.05,
+     "scale": 0.9,
+     "anchor": [
+      0.5,
+      1.0
+     ],
+     "keys": [
+      {
+       "t": 0.8,
+       "img": "chars/rival_shock.png"
+      },
+      {
+       "t": 0.8,
+       "sx": 0.9,
+       "sy": 1.12
+      },
+      {
+       "t": 1.0,
+       "sx": 1.0,
+       "sy": 1.0,
+       "ease": "outElastic"
+      }
+     ],
+     "idle": {
+      "bob": 3,
+      "rate": 3.0
+     }
+    },
+    {
+     "type": "text",
+     "text": "CRACK!",
+     "font_preset": "heavy",
+     "size": 84,
+     "color": "#FFFFFF",
+     "stroke": 8,
+     "rot": 6,
+     "x": 0.4,
+     "y": 0.42,
+     "start": 0.8,
+     "end": 1.9,
+     "pop_in": 0.1
+    }
+   ]
+  },
+  {
+   "src": "shots/blueprint.png",
+   "end": 16.9,
+   "transition": {
+    "type": "dip",
+    "dur": 0.3
+   },
+   "camera": {
+    "zoom": [
+     1.25,
+     1.32
+    ],
+    "y": [
+     0.2,
+     0.22
+    ]
+   },
+   "layers": [
+    {
+     "type": "ring",
+     "x": 0.77,
+     "y": 0.57,
+     "radius": 90,
+     "width": 8,
+     "color": "#FF7840",
+     "start": 0.6,
+     "end": 1.2
+    },
+    {
+     "type": "ring",
+     "x": 0.23,
+     "y": 0.4,
+     "radius": 90,
+     "width": 8,
+     "color": "#FF7840",
+     "start": 0.9,
+     "end": 1.5
+    },
+    {
+     "type": "text",
+     "text": "ALL THE STRESS\nHERE",
+     "font_preset": "heavy",
+     "size": 62,
+     "color": "#FFFFFF",
+     "box": "#E8392B",
+     "border": 4,
+     "rot": -3,
+     "x": 0.5,
+     "y": 0.17,
+     "start": 1.85,
+     "end": 3.1,
+     "pop_in": 0.12
+    }
+   ]
+  },
+  {
+   "src": "shots/blueprint.png",
+   "end": 18.5,
+   "camera": {
+    "zoom": [
+     1.3,
+     1.25
+    ],
+    "y": [
+     -0.19,
+     -0.2
+    ]
+   },
+   "layers": [
+    {
+     "type": "text",
+     "text": "SPREAD OUT",
+     "font_preset": "heavy",
+     "size": 66,
+     "color": "#1A1A1A",
+     "box": "#5BD27A",
+     "border": 4,
+     "rot": 3,
+     "x": 0.5,
+     "y": 0.2,
+     "start": 0.95,
+     "end": 1.6,
+     "pop_in": 0.12
+    }
+   ]
+  },
+  {
+   "src": "shots/harbor_round.png",
+   "end": 21.9,
+   "transition": {
+    "type": "dissolve",
+    "dur": 0.25
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.18
+    ],
+    "y": [
+     0.0,
+     0.04
+    ]
+   },
+   "grade": {
+    "saturation": 1.15,
+    "contrast": 1.04,
+    "tint": "#FFB347",
+    "tint_amt": 0.06,
+    "vignette": 0.28
+   },
+   "layers": [
+    {
+     "src": "chars/hero_smug.png",
+     "x": 0.24,
+     "y": 0.97,
+     "scale": 0.75,
+     "anchor": [
+      0.5,
+      1.0
+     ],
+     "pop_in": 0.25,
+     "idle": {
+      "bob": 6,
+      "sway": 1.5,
+      "breathe": 0.015,
+      "rate": 1.3
+     }
+    },
+    {
+     "type": "ring",
+     "x": 0.5,
+     "y": 0.55,
+     "radius": 260,
+     "width": 10,
+     "color": "#FFE08A",
+     "start": 2.6,
+     "end": 3.3
+    }
+   ]
+  }
+ ],
+ "captions": {
+  "words": "words.json",
+  "preset": "clean_pop",
+  "style": {
+   "keywords": [
+    "round",
+    "square",
+    "cracked,",
+    "circle"
+   ],
+   "keyword_color": "#FFC83D"
+  }
+ },
+ "audio": {
+  "vo": "audio/vo.aiff",
+  "music": "audio/bed.wav",
+  "music_db": -17,
+  "duck": true,
+  "music_fade_out": 0.3,
+  "sfx": [
+   {
+    "src": "sfx/pop.wav",
+    "at": 0.05,
+    "db": -8
+   },
+   {
+    "src": "sfx/whoosh_short.wav",
+    "at": 1.62,
+    "db": -6
+   },
+   {
+    "src": "sfx/record_scratch.wav",
+    "at": 2.7,
+    "db": -10
+   },
+   {
+    "src": "sfx/pop.wav",
+    "at": 4.5,
+    "db": -6
+   },
+   {
+    "src": "sfx/whoosh.wav",
+    "at": 5.4,
+    "db": -10
+   },
+   {
+    "src": "sfx/pop.wav",
+    "at": 6.5,
+    "db": -8
+   },
+   {
+    "src": "sfx/whoosh_short.wav",
+    "at": 7.38,
+    "db": -6
+   },
+   {
+    "src": "sfx/riser.wav",
+    "at": 7.4,
+    "db": -12
+   },
+   {
+    "src": "sfx/boom.wav",
+    "at": 10.03,
+    "db": -3
+   },
+   {
+    "src": "sfx/impact_hit.wav",
+    "at": 11.8,
+    "db": -4
+   },
+   {
+    "src": "sfx/tick.wav",
+    "at": 14.4,
+    "db": -8
+   },
+   {
+    "src": "sfx/thud.wav",
+    "at": 15.71,
+    "db": -8
+   },
+   {
+    "src": "sfx/sparkle.wav",
+    "at": 17.85,
+    "db": -10
+   },
+   {
+    "src": "sfx/ding.wav",
+    "at": 21.16,
+    "db": -8
+   }
+  ]
+ }
+}
